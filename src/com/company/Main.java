@@ -69,7 +69,7 @@ public class Main {
 
     public static void OptionalClassUsage(){
         String[] words = new String[10];
-        //String word = words[5].toLowerCase(); //Exception in thread "main" java.lang.NullPointerException
+        //String word = words[5].toLowerCase(); //Exception in thread "SolutionRepeatedString" java.lang.NullPointerException
         //System.out.print(word);
 
         Optional<String> checkNull =
